@@ -1,13 +1,10 @@
 // env.js
-// ВАЖНО: здесь больше нет Telegram bot token и chat ID.
-// Отчёты отправляются через Cloudflare Worker.
+// Telegram bot token и chat ID здесь НЕ хранятся.
+// Они должны быть только в Cloudflare Worker Secrets.
 
 (function () {
   window.__APP_ENV = {
-    // Сюда вставь ссылку своего Cloudflare Worker
-    REPORT_PROXY_URL: "https://shrill-waterfall-46fd.ТВОЙ-SUBDOMAIN.workers.dev",
-
-    // Должен совпадать с REPORT_SECRET в Cloudflare Worker Secrets
+    REPORT_PROXY_URL: "https://shrill-waterfall-46fd.nurislombek006.workers.dev/",
     REPORT_SECRET: "Nurislombek_Report_Secret_2026"
   };
 })();
