@@ -1,7 +1,7 @@
-// Конфиг отчётов Telegram. Для настоящей защиты нужен backend/proxy.
-(function(){
+// Конфиг отчётов через Cloudflare Worker
+(function () {
   window.__APP_ENV = {
-    BOT_TOKEN_B64: 'ODU5NTg3NTcxNTpBQUV5WkNNbHBYOVZRaE91aEt6WE1ZMWFyc3QwWTg5WUU4aw==',
-    CHAT_ID_B64: 'NTMwNTI2MTEwMQ=='
+    REPORT_PROXY_URL: "https://shrill-waterfall-46fd.ТВОЙ-САБДОМЕН.workers.dev",
+    REPORT_SECRET: "Nurislombek_Report_Secret_2026"
   };
 })();
