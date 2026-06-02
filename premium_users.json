@@ -21,19 +21,9 @@
       "active": true,
       "uid": "5305261101",
       "user_id": "5305261101",
-      "created": "2026-06-02 16:06:52",
+      "created": "2026-06-02 16:15:17",
       "expires": "2026-07-02",
-      "note": "Выдано через activate.py",
-      "fingerprint": "45A2C438"
-       },
-    "5305261101": {
-      "active": true,
-      "uid": "5305261101",
-      "user_id": "5305261101",
-      "created": "2026-06-02 16:06:52",
-      "expires": "2026-07-02",
-      "note": "Выдано через activate.py",
-      "fingerprint": "618AA4DB"
+      "note": "Выдано через activate.py"
     }
   }
 }
